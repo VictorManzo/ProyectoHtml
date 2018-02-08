@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<title>Hoja de Vida</title>
+</head>
+<body>
+<header>
+	<h1>
+		<svg>
+			<image xlink:href="../img/victor.svg" width="300px" height="200px" ></image><br/>
+		</svg>Curriculum Vitae
+	</h1>
+	<h2>Victor Alfonso Manzo Justo-11/02/1989</h2>
+	<h3>Distrito Federal ó Ciudad de México</h3>
+</header>
+<nav>
+	<ul>
+		<li><a href="../index.html">Inicio</a></li>
+		<li><a href="educacion.html">Educación</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+</nav>
+<section>
+	<h2>Educación</h2>
+	<table border="1" cellpadding="10" cellspacing="0">
+		<tr>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>	
+		</tr>
+		<tr>
+			<td>1994</td>
+			<td>Primaria, Benito Juárez</td>
+			<td>Ciudad de Mexico</td>
+			<td>SI</td>
+		</tr>
+		<tr>
+			<td>1999</td>
+			<td>Secundaria, Antonio Barbosa</td>
+			<td>Estado de Mexico</td>
+			<td>SI</td>
+		</tr>
+	</table>
+	<hr/>
+	<h3>Agregar Estudios</h3>
+	<form>		<label for="año"><strong>Año:</strong></label>
+		<select>
+			<option>2018</option>
+			<option>2017</option>
+			<option>2016</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+			<option>2007</option>
+		</select><br/><br/>
+		
+		<label for="nombre"><strong>Institución:</strong></label>
+		<input type="text" name="name" id="nombre" required><br/><br/>
+		
+		<label for="nombre"><strong>Lugar:</strong></label>
+		<textarea name="areatexto" rows="2" cols="30"></textarea><br/><br/>
+		
+		<label for="nombre"><strong>¿Culminó?</strong></label>
+		
+  		<input type="radio" id="culmino1"
+     	name="culmino" value="si">
+    	<label for="culmino1">SI</label>
+
+    	<input type="radio" id="culmino2"
+     	name="culmino" value="no">
+    	<label for="culmino2">NO</label><br/><br/>
+    	
+    	<input type="submit" value="Enviar">
+	</form>    
+</section>
+<footer>
+	<p>@Derechos Reservados</p>
+	<ul>
+		<li><strong>Correo Eléctronico</strong> - crosh_357maja@hotmail.com</li>
+		<li><strong>Teléfono</strong> - 5518868762</li>
+		<li><strong>Redes Sociales</strong> - Twitter/Facebook/Instagram</li>
+		<li><strong>Dirección</strong> - Oriente 327 Colonia Guerrero</li>
+	</ul>
+</footer>
+</body>
+</html>
